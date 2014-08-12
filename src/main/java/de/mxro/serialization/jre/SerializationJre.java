@@ -1,6 +1,7 @@
 package de.mxro.serialization.jre;
 
 import java.io.InputStream;
+import java.io.OutputStream;
 
 import de.mxro.serialization.Serializer;
 import de.mxro.serialization.jre.internal.JavaSerializationProvider;
@@ -18,6 +19,10 @@ public class SerializationJre {
 
 	public static StreamSource createStreamSource(InputStream is) {
 		return new StreamSource(is);
+	}
+
+	public static StreamDestination createStreamDestination(OutputStream os) {
+		return new StreamDestination(os);
 	}
 
 }
