@@ -4,10 +4,10 @@
   
   All rights reserved.
 -->
-<module rename-to='nxserializer'>
+<module rename-to='serialization'>
   <inherits name='com.google.gwt.user.User'/>
 
- <inherits name='mx.gwtutils.MxGWTUtils'></inherits>
+  <inherits name='de.mxro.factories.Factories'></inherits>
 
 
   <!-- Specify the app entry point class.    -->                    
