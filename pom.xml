@@ -4,7 +4,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<groupId>de.mxro.serialization</groupId>
 	<artifactId>serialization-api</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.2</version>
 	<description>An abstract and generalizable framework for Java serialization.</description>
 	<url>https://github.com/mxro/async-map</url>
 
