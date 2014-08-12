@@ -2,10 +2,10 @@
 <!-- Template: Source + GWT + in workspace dependencies 27.11.2010 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<groupId>de.mxro.async.map</groupId>
-	<artifactId>async-map</artifactId>
+	<groupId>de.mxro.serialization</groupId>
+	<artifactId>serialization-api</artifactId>
 	<version>0.0.2-SNAPSHOT</version>
-	<description>Interface and utilities for asynchronous maps in Java.</description>
+	<description>An abstract and generalizable framework for Java serialization.</description>
 	<url>https://github.com/mxro/async-map</url>
 
 	<properties>
@@ -14,7 +14,7 @@
 			org.junit,
 			*
 		</module.importedPackages>
-		<module.exportedPackages>!de.mxro.async.map.internal*,de.mxro.async.map*
+		<module.exportedPackages>!de.mxro.serialization.internal*,de.mxro.serialization*
 		</module.exportedPackages>
 		<module.serviceDefinitions>
 		</module.serviceDefinitions>
