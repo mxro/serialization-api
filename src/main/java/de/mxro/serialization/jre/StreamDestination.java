@@ -1,4 +1,4 @@
-package de.mxro.serialization.internal;
+package de.mxro.serialization.jre;
 
 import java.io.OutputStream;
 
