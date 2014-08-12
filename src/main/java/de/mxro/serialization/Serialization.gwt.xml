@@ -5,18 +5,13 @@
   All rights reserved.
 -->
 <module rename-to='nxserializer'>
-  <!-- Inherit the core Web Toolkit stuff.                        -->
   <inherits name='com.google.gwt.user.User'/>
 
-	
-  <!-- Other module inherits                                      -->
-
  <inherits name='mx.gwtutils.MxGWTUtils'></inherits>
-	
-   
+
 
   <!-- Specify the app entry point class.    -->                    
-  <entry-point class='nx.serializer.internal.DummyEntryPoint'/> 
+  <entry-point class='de.mxro.serialization.internal.DummyEntryPoint'/> 
 
   <!-- Specify the paths for translatable code                    -->
   <source path=''>
