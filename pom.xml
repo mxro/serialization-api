@@ -6,7 +6,7 @@
 	<artifactId>serialization-api</artifactId>
 	<version>0.0.2</version>
 	<description>An abstract and generalizable framework for Java serialization.</description>
-	<url>https://github.com/mxro/async-map</url>
+	<url>https://github.com/mxro/serialization-api</url>
 
 	<properties>
 		<module.gwtVersion>2.5.1</module.gwtVersion>
