@@ -330,9 +330,9 @@
 	</developers>
 
 	<scm>
-		<connection>scm:git:git@github.com:mxro/async-map.git</connection>
-		<url>https://github.com/mxro/async-map</url>
-		<developerConnection>scm:git:git@github.com:mxro/async-map.git
+		<connection>scm:git:git@github.com:mxro/serialization-api.git</connection>
+		<url>https://github.com/mxro/serialization-api</url>
+		<developerConnection>scm:git:git@github.com:mxro/serialization-api.git
 		</developerConnection>
 	</scm>
 
