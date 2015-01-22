@@ -18,7 +18,10 @@ public class JavaSerializationProvider implements Serializer<StreamSource, Strea
     @Override
     public Object deserialize(final StreamSource source) {
         try {
-            return new ObjectInputStream(source.getSource()).readObject();
+            final Object res = new ObjectInputStream(source.getSource()).readObject();
+
+            System.out.println("unser " + res);
+            return res;
         } catch (final IOException e) {
             throw new RuntimeException(e);
         } catch (final ClassNotFoundException e) {
