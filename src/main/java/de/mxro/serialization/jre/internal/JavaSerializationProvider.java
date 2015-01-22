@@ -20,7 +20,6 @@ public class JavaSerializationProvider implements Serializer<StreamSource, Strea
         try {
             final Object res = new ObjectInputStream(source.getSource()).readObject();
 
-            System.out.println("unser " + res);
             return res;
         } catch (final IOException e) {
             throw new RuntimeException(e);
@@ -32,8 +31,6 @@ public class JavaSerializationProvider implements Serializer<StreamSource, Strea
     @Override
     public boolean serialize(final Object o, final StreamDestination dest) {
         assert o != null : "Cannot serialize object <null>.";
-
-        System.out.println("ser " + o);
 
         try {
             new ObjectOutputStream(dest.getDestination()).writeObject(o);
