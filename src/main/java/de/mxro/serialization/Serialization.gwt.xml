@@ -7,7 +7,7 @@
 <module rename-to='serialization'>
   <inherits name='com.google.gwt.user.User'/>
 
-  <inherits name='de.mxro.factories.Factories'></inherits>
+  <inherits name='delight.factories.Factories'></inherits>
 
 
   <!-- Specify the app entry point class.    -->                    
