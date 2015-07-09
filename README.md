@@ -1,3 +1,7 @@
+# MOVED
+
+This project has moved to [javadelight/delight-serialization](https://github.com/javadelight/delight-serialization) and is now part of [Java Delight](http://javadelight.org).
+
 serialization-api
 =================
 
